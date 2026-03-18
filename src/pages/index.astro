@@ -1,0 +1,29 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Trying to change my world!</h1>
+      <p>
+        Hello there, this is my personal blog where I share my thoughts,
+        projects, and experiences in the world. I'm excited to have you here and
+        hope you find something interesting!
+      </p>
+      <p>
+        This is just one way of expressing my view of the world, where every day
+        I try to be a little more myself.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

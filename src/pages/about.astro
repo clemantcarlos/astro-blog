@@ -1,0 +1,130 @@
+---
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+import Layout from "../layouts/BlogPost.astro";
+---
+
+<Layout
+  title="About Me"
+  description="Lorem ipsum dolor sit amet"
+  pubDate={new Date("2026-03-18")}
+>
+  <nav>
+    <a href="#summary">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+  </nav>
+  <h3 id = 'summary'>Summary</h3>
+  <p>
+    I’m a software engineer with plus three years of experience developing web
+    applications and services, as well as providing technical leadership for
+    small teams of software developers.
+
+    <br /><br />
+
+    I’m fluent in JavaScript, Python, SQL, and English. I’ve also written a good
+    amount of Java, HTML and PHP. I learn quickly, care about detail, and love
+    computer science and design.
+
+    <br /><br />
+
+    I live in Venezuela and I’m open to remote work and some travel.
+  </p>
+
+  <h3 id="skills">Skills: what I do…</h3>
+  <strong>Software development</strong>
+  <li>
+    Develop backend web systems and services that perform well and are easy to
+    use. I’ve used various languages and databases.
+  </li>
+  <li>
+    Contribute to frontend development: I’ve used HTML, CSS, vanilla JavaScript,
+    Typescript, React, Angular, Odoo and Laravel.
+  </li>
+  <li>
+    Use DevOps and scripting: I can configure Kubernetes, create Docker images,
+    develop infrastructure as code, administer servers, and automate complex
+    code deployments on Linux and Windows.
+  </li>
+  <li>
+    Provide JS and Python expertise from some years of experience with both
+    languages.
+  </li>
+  <strong>Technical leadership</strong>
+  <li>
+    Work with engineers to design complex systems (and simplify them!). Work
+    with clientes to plan and prioritize features.
+  </li>
+  <li>
+    Mentor developers, review code, and help establish good engineering
+    practices.
+  </li>
+  <li>Communicate and document effectively, and relate well to people.</li>
+  <li>Give internal technical talks and training.</li>
+  <h3 id="experience">Experience</h3>
+  <span class="font-bold">
+    <strong class="text-(--accent)">Sygreca</strong> - Software Developer and Frontend
+    Lead
+  </span>
+  <li>
+    I participated in the development and customization of ERP modules for
+    accounting, human resources, inventory, and asset management, among others,
+    tailoring them to the requirements of public and private sector clients.
+  </li>
+  <li>
+    I led the integration of Odoo in projects where clients were using this
+    platform, connecting legacy modules with the new infrastructure.
+  </li>
+  <li>
+    I ensured operational continuity and data security for thousands clients by
+    implementing access policies, encryption, and backup procedures, as well as
+    providing technical support to end users.
+  </li>
+  <li>
+    I designed and implemented REST APIs for communication between the ERP and
+    external systems, optimizing real-time data synchronization.
+  </li>
+  <li>
+    I developed custom reports and interactive dashboards using data
+    visualization tools, improving decision-making for clients.
+  </li>
+  <li>
+    I migrated entire systems from Java to React, reducing technical debt and
+    improving code maintainability.
+  </li>
+  <li>
+    I implemented automated testing and CI/CD pipelines (GitHub Actions) that
+    reduced production errors and accelerated deployments by over 70%.
+  </li>
+  <span class="font-bold">
+    <strong class="text-(--accent)">Innovacion Digital</strong> - Full Stack Engineer
+  </span>
+  <li>
+    I developed a custom inventory management system for a local retail
+    business, improving stock tracking and reducing losses by 25%.
+  </li>
+  <li>
+    I migrated the company’s core system from legacy PHP to JavaScript
+    (Node.js/React), enabling agile updates and a 40% reduction in system
+    response time.
+  </li>
+  <li>
+    I implemented collaborative workflows with GitHub, increasing team
+    efficiency and significantly reducing development time.
+  </li>
+  <h3 id = 'education'>Education</h3>
+  <p>
+    I have a technical degree in systems analysis (but i'm going for the engineer right now) graduating from the University Institute of Information Technology in 2025 with first class honors, <strong>GPA 18.7/20</strong>. For my final-year project I designed a small server system to send notifications.
+  </p>
+</Layout>
+<style>
+  nav {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  li {
+    margin-left: 1em;
+  }
+</style>
